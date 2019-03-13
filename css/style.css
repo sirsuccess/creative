@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.head-section{
+background-color: rgb(212,212,210);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    justify-items: center;
+    height: 100px;
+    padding-top: 20px;
+    color: rgb(121,120,118);
+    width: 80%;
+}
+.circle{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.circle:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+.navright ul{
+display: flex;
+justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+li:hover{
+    color: black;
+}
+
+button{
+border-radius: 20px;
+width: 150px;
+height: 30px;
+background-color: rgb(255,123,56);
+}
+
+.section_1{
+display: flex;
+justify-content: space-around;
+font-size: 20px;
+}
+.section1-right{
+background-image: url("../img/chef_1.jpg")
+}
+.section1-btn {
+    margin-top: 50px;
+}
+
+span{
+    color: rgb(255,123,56)
+}
+.section1-btn :nth-child(2){
+background-color: rgb(212,212,210);
+border: 1px black solid;
+margin-left: 30px;
+}
+
+.section_2{
+    text-align: center;
+margin: 50px auto;
+}
+.section_3{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+.d1, .d2, .d3{
+    height: 100%;
+}
+.d2-img1{
+    height: 60%;
+    margin: 10px;
+}
+.d2-img2{
+    margin: 0 10px 10px 10px;
+    height: 30%;
+}
+.d3-img2{
+    margin: 0 10px 10px 10px;
+    height: 70%;
+}
+.d3-img1{
+    height: 50%;
+    margin: 10px;
+}
+
+.section_4{
+text-align: center;
+margin-top: 100px;
+}
+.section_5{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 100px auto;
+}
+.right-section5{
+margin-left: 20px;
+}
+.who{
+    font-size: 50px;
+}
+.text{
+    margin-top: 50px;
+}
+.image-section{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    margin-top: 20px;
+    width: 300px;
+}
+.left-section5 button{
+    margin-top: 20px;
+}
+.section_6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first-section6{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.input-section{
+    margin-top: 20px;
+    border-bottom: 1px gray solid;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section6 ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+.last-section{
+    text-align: center;
+    color: gray;
+    margin: 50px 0;
+}
