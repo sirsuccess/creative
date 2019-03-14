@@ -178,6 +178,16 @@ margin-left: 20px;
     display: flex;
     justify-content: space-between;
 }
+input{
+    width: 300px;
+    height: 30px;
+    padding: 0 5px;
+}
+.input-section button{
+    /* background-color: transparent; */
+    border-radius: 0;
+    border-top-right-radius: 5px;
+}
 .second-section6 ul li{
     list-style: none;
     margin-right: 20px;
@@ -187,5 +197,6 @@ margin-left: 20px;
 .last-section{
     text-align: center;
     color: gray;
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
